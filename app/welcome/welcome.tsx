@@ -30,7 +30,7 @@ export function Welcome() {
           <AccordionItem value="item-4">
             <AccordionTrigger className="font-bold text-xl">비상연락망</AccordionTrigger>
             <AccordionContent className="flex flex-col gap-4 text-balance">
-              <a href="tel:041-530-1900">
+              <a href="tel:041-533-1907">
                 <Button className="w-full text-lg">
                   JB 상황실에 전화하기
                 </Button>
@@ -43,6 +43,27 @@ export function Welcome() {
             <div className="w-full max-w-md mt-2">
           <GoogleMapIframe lat={36.806866} lng={127.106311} />
             </div>
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-6">
+            <AccordionTrigger className="font-bold text-xl">구형 밸브 조작 방법</AccordionTrigger>
+            <AccordionContent className="flex flex-col gap-4 text-balance">
+            <img src="/public/old_01.jpg" alt="구형 밸브 조작 방법01" className="w-full" />
+            <img src="/public/old_02.jpg" alt="구형 밸브 조작 방법02" className="w-full" />            
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-7">
+            <AccordionTrigger className="font-bold text-xl">신형 밸브 조작 방법</AccordionTrigger>
+            <AccordionContent className="flex flex-col gap-4 text-balance">
+            <img src="/public/new_01.jpg" alt="신형 밸브 조작 방법01" className="w-full" />
+            <img src="/public/new_02.jpg" alt="신형 밸브 조작 방법02" className="w-full" />            
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-8">
+            <AccordionTrigger className="font-bold text-xl">노퍼지 밸브 조작 방법</AccordionTrigger>
+            <AccordionContent className="flex flex-col gap-4 text-balance">
+            <img src="/public/np_01.jpg" alt="노퍼지 밸브 조작 방법01" className="w-full" />
+            <img src="/public/np_02.jpg" alt="노퍼지 밸브 조작 방법02" className="w-full" />            
             </AccordionContent>
           </AccordionItem>
         </Accordion>  
