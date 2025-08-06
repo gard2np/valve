@@ -48,22 +48,22 @@ export function Welcome() {
           <AccordionItem value="item-6">
             <AccordionTrigger className="font-bold text-xl">구형 밸브 조작 방법</AccordionTrigger>
             <AccordionContent className="flex flex-col gap-4 text-balance">
-            <img src="/public/old_01.jpg" alt="구형 밸브 조작 방법01" className="w-full" />
-            <img src="/public/old_02.jpg" alt="구형 밸브 조작 방법02" className="w-full" />            
+            <img src="/old_01.jpg" alt="구형 밸브 조작 방법01" className="w-full" />
+            <img src="/old_02.jpg" alt="구형 밸브 조작 방법02" className="w-full" />            
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-7">
             <AccordionTrigger className="font-bold text-xl">신형 밸브 조작 방법</AccordionTrigger>
             <AccordionContent className="flex flex-col gap-4 text-balance">
-            <img src="../public/new_01.jpg" alt="신형 밸브 조작 방법01" className="w-full" />
-            <img src="../public/new_02.jpg" alt="신형 밸브 조작 방법02" className="w-full" />            
+            <img src="/new_01.jpg" alt="신형 밸브 조작 방법01" className="w-full" />
+            <img src="/new_02.jpg" alt="신형 밸브 조작 방법02" className="w-full" />            
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-8">
             <AccordionTrigger className="font-bold text-xl">노퍼지 밸브 조작 방법</AccordionTrigger>
             <AccordionContent className="flex flex-col gap-4 text-balance">
-            <img src="../public/np_01.jpg" alt="노퍼지 밸브 조작 방법01" className="w-full" />
-            <img src="../public/np_02.jpg" alt="노퍼지 밸브 조작 방법02" className="w-full" />            
+            <img src="/np_01.jpg" alt="노퍼지 밸브 조작 방법01" className="w-full" />
+            <img src="/np_02.jpg" alt="노퍼지 밸브 조작 방법02" className="w-full" />            
             </AccordionContent>
           </AccordionItem>
         </Accordion>  
